@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic API</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified jQuery -->
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3 text-center">GifTastic API</h1>
+    <p class="lead text-center">Add an animal button to the list. Click Gif to watch it animate!</p>
+  </div>
+</div>
+<div class="container">
+        <div class="row">
+        <div class="col-md-10">
+    <div id="animalButtons">
+        <!-- Preset buttons go here -->
+    </div>
+    </div>
+
+    
+            <div class="col-md-10">
+                <div id="gifContent">
+                    <!-- Contents goes here -->
+                </div>
+            </div>
+            <div class="col-md-2">
+                <form id="animal-form">
+                    <!-- Search Form Goes Here -->
+                    <!-- Adds label to search box -->
+                    <label for="animal-input">Add an Animal</label>
+                    <br/>
+                    <!-- Specifies what type of input and an ID  -->
+                    <input type="text" id="animal-input">
+                    <br/>
+                    <br/>
+                    <!-- Adds submit button that is labeled search -->
+                    <input id="addAnimal" type="submit" class="btn btn-primary submitButton" value="Search">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</html>

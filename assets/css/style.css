@@ -1,0 +1,13 @@
+body {
+	background: darkgrey;
+
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.btn {
+	margin: 5px;
+}
