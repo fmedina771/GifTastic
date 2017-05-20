@@ -41,7 +41,7 @@ $(document).on("click", ".animal", function() {
 
             for (var i = 0; i < results.length; i++) {
                 if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
-                    var gifDiv = $("<div class='item'>");
+                    var gifDiv = $("<span class='item'>");
 
                     // Storing the result item's rating
                     var rating = results[i].rating;

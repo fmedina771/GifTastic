@@ -1,13 +1,22 @@
 body {
 	background: darkgrey;
-
 }
 
 img {
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 }
 
 .btn {
 	margin: 5px;
+}
+
+.item {
+	display: inline-block;
+	padding: 20px;
+}
+
+#animal-input {
+	width:200px;
+	height: 35px;
 }
